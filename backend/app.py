@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://Mereke:Jennifer_107@localhost/form_react'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://user:pass@localhost/form_react'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'key'
 
